@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3758680e-2f01-484a-b10b-62d51c36555d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample.java" afterDir="false" />
+    <list default="true" id="3758680e-2f01-484a-b10b-62d51c36555d" name="Changes" comment="Part 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample/TestSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +50,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Sample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SeleniumFramework.Test.Sample" />
       <module name="SeleniumAdvancedFramework" />
@@ -72,8 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAdvancedFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml" />
         <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
@@ -87,6 +99,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737422933664</updated>
     </task>
+    <task id="LOCAL-00001" summary="Part 1">
+      <option name="closed" value="true" />
+      <created>1737423878802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737423878802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 1" />
   </component>
 </project>
