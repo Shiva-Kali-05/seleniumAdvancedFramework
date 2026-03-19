@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3758680e-2f01-484a-b10b-62d51c36555d" name="Changes" comment="Part 1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample/TestSample.java" afterDir="false" />
+    <list default="true" id="b071d52d-d0fe-4ef5-bbfe-8c1fe12b10b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/FreeTrailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/SupportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/utils/WaitHelper/java/WaitHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumAdvanceFramework/tests/VWO/TestVWOInvalidLogin_Without_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumAdvanceFramework/tests/VWO/TestVWOLogin_01_Normal_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample/TestSample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +35,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shiva-Kali-05"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Shiva-Kali-05/SeleniumAdvancedFramework.git",
-    "accountId": "4eeb83e3-d0bc-4b00-abd2-b3f1c1fed0a0"
-  }
-}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2ruxnuKB8IkHasQSys9BmP7fMKZ" />
+  <component name="ProjectId" id="3B9uIhB8QXYoocpH64hyd2bbHrt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -50,33 +48,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Sample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml.executor": "Run",
+    "TestNG.TestVWOLogin_01_Normal_POM.test_negative_vwo_login.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml">
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumFramework.Test.Sample" />
-      <module name="SeleniumAdvancedFramework" />
+  <component name="RunManager" selected="TestNG.TestVWOLogin_01_Normal_POM">
+    <configuration name="TestVWOLogin_01_Normal_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SeleniumFramework.Test.*" />
+          <option name="PATTERN" value="com.seleniumAdvanceFramework.tests.VWO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumAdvanceFramework.tests.VWO" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumAdvanceFramework.tests.VWO.TestVWOLogin_01_Normal_POM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAdvancedFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="TestVWOLogin_01_Normal_POM.test_negative_vwo_login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumAdvanceFramework.tests.VWO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumAdvanceFramework.tests.VWO" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumAdvanceFramework.tests.VWO.TestVWOLogin_01_Normal_POM" />
+      <option name="METHOD_NAME" value="test_negative_vwo_login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -85,33 +94,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Shivakumar Kali/IdeaProjects/SeleniumAdvancedFramework/testng.xml" />
-        <item itemvalue="Application.Sample" />
+        <item itemvalue="TestNG.TestVWOLogin_01_Normal_POM" />
+        <item itemvalue="TestNG.TestVWOLogin_01_Normal_POM.test_negative_vwo_login" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3758680e-2f01-484a-b10b-62d51c36555d" name="Changes" comment="" />
-      <created>1737422933664</created>
+      <changelist id="b071d52d-d0fe-4ef5-bbfe-8c1fe12b10b3" name="Changes" comment="" />
+      <created>1773913531644</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737422933664</updated>
+      <updated>1773913531644</updated>
     </task>
-    <task id="LOCAL-00001" summary="Part 1">
-      <option name="closed" value="true" />
-      <created>1737423878802</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1737423878802</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1" />
   </component>
 </project>
