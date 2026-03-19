@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b071d52d-d0fe-4ef5-bbfe-8c1fe12b10b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/FreeTrailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/pages/PageObjectModel/VWO/SupportPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumAdvanceFramework/utils/WaitHelper/java/WaitHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumAdvanceFramework/tests/VWO/TestVWOInvalidLogin_Without_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumAdvanceFramework/tests/VWO/TestVWOLogin_01_Normal_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b071d52d-d0fe-4ef5-bbfe-8c1fe12b10b3" name="Changes" comment="Selenium Framework">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumFramework/Test/Sample/TestSample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +39,13 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestVWOLogin_01_Normal_POM.executor": "Run",
     "TestNG.TestVWOLogin_01_Normal_POM.test_negative_vwo_login.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestVWOLogin_01_Normal_POM">
+  <component name="RunManager" selected="TestNG.TestVWOLogin_01_Normal_POM.test_negative_vwo_login">
     <configuration name="TestVWOLogin_01_Normal_POM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumAdvanceFramework" />
       <extension name="coverage">
@@ -94,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestVWOLogin_01_Normal_POM" />
         <item itemvalue="TestNG.TestVWOLogin_01_Normal_POM.test_negative_vwo_login" />
+        <item itemvalue="TestNG.TestVWOLogin_01_Normal_POM" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1773913531644</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium Framework">
+      <option name="closed" value="true" />
+      <created>1773923493529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773923493529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Framework" />
   </component>
 </project>
