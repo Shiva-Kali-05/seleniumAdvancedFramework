@@ -32,4 +32,11 @@ public class LoginPage {
         return error_message_text;
 
     }
+
+    public void loginToVWOvalidCredentials(String usr, String pwd)
+    {
+        driver.findElement(username).sendKeys(usr);
+        driver.findElement(password).sendKeys(pwd);
+        driver.findElement(SignButton).click();
+    }
 }
