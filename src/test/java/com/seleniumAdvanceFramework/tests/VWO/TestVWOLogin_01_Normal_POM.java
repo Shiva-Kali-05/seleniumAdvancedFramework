@@ -1,8 +1,8 @@
 package com.seleniumAdvanceFramework.tests.VWO;
 
 
-import com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.DashboardPage;
-import com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.LoginPage;
+import com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.normal_POM.DashboardPage;
+import com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.normal_POM.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;

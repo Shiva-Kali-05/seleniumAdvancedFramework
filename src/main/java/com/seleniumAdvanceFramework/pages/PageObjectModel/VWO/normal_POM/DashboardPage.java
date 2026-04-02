@@ -1,4 +1,4 @@
-package com.seleniumAdvanceFramework.pages.PageObjectModel.VWO;
+package com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.normal_POM;
 
 import com.seleniumAdvanceFramework.utils.WaitHelper.java.WaitHelper;
 import org.openqa.selenium.By;

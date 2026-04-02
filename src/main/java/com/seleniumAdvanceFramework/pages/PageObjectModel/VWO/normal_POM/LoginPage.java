@@ -1,5 +1,6 @@
-package com.seleniumAdvanceFramework.pages.PageObjectModel.VWO;
+package com.seleniumAdvanceFramework.pages.PageObjectModel.VWO.normal_POM;
 
+import com.seleniumAdvanceFramework.base.CommonToAllPage;
 import com.seleniumAdvanceFramework.utils.WaitHelper.java.WaitHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -30,7 +31,6 @@ public class LoginPage {
         WaitHelper.checkVisibility(driver, error_message);
         String error_message_text= driver.findElement(error_message).getText();
         return error_message_text;
-
     }
 
     public void loginToVWOvalidCredentials(String usr, String pwd)
