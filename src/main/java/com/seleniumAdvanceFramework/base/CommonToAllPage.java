@@ -2,6 +2,7 @@ package com.seleniumAdvanceFramework.base;
 
 import com.seleniumAdvanceFramework.utils.PropertiesReader;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import static com.seleniumAdvanceFramework.driver.DriverManager.getDriver;
 
@@ -28,5 +29,17 @@ public class CommonToAllPage {
     public void enterInput(By by, String key)
     {
         getDriver().findElement(by).sendKeys(key);
+    }
+
+    public void enterInput(WebElement by, String key) {
+        by.sendKeys(key);
+    }
+
+    public String getText(By by){
+        return getDriver().findElement(by).getText();
+    }
+
+    public String getText(WebElement by){
+        return by.getText();
     }
 }

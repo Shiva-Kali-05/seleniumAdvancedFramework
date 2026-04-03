@@ -9,7 +9,7 @@ public class PropertiesReader {
     public static String readKey(String key)
     {
     Properties p;
-    String user_dir=System.getProperty("user.key");
+    String user_dir=System.getProperty("user.dir");
     //user.dir - contains that what is your working directory
     String file_path = user_dir+ "src/main/resources/data.properties";
     FileInputStream fileInputStream;

@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import static com.seleniumAdvanceFramework.driver.DriverManager.getDriver;
-import static jdk.internal.agent.Agent.getText;
+
 
 public class LoginPage extends CommonToAllPage {
     WebDriver driver;
